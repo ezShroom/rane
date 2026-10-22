@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.rane.grappling_hook",
+    "fallback": "Grappling Hook"
+  },
+  "supported_items": "#minecraft:enchantable/fishing",
+  "weight": 10,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 3,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "hand"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "rane: custom items for the Fabric port of vane",
+    "min_format": [97, 1],
+    "max_format": [97, 1]
+  }
+}

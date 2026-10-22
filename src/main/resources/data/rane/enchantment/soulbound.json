@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.rane.soulbound",
+    "fallback": "Soulbound",
+    "color": "dark_gray"
+  },
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 10,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 3,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "any"
+  ]
+}

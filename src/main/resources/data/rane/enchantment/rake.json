@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.rane.rake",
+    "fallback": "Rake"
+  },
+  "supported_items": "#minecraft:hoes",
+  "weight": 10,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 3,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "hand"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "rane",
+  "version": "${version}",
+  "name": "rane",
+  "description": "A server-side Fabric port of vane: portals, regions, custom enchantments, trifles and more, all playable with vanilla clients.",
+  "authors": ["ezShroom"],
+  "contributors": ["oddlama and the vane contributors (original plugin)"],
+  "contact": { "sources": "https://github.com/ezShroom/rane" },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [{ "adapter": "kotlin", "value": "me.shro.rane.Rane" }]
+  },
+  "mixins": ["rane.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.14.0"
+  },
+  "suggests": { "luckperms": "*", "bluemap": "*" }
+}

@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "package": "me.shro.rane.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "IngredientMixin",
+    "RecipeManagerMixin",
+    "RecipeMapAccessor",
+    "admin.ServerExplosionMixin",
+    "admin.BlockAttachedEntityMixin",
+    "admin.ItemFrameMixin",
+    "admin.EndermanTakeBlockGoalMixin",
+    "admin.BreakDoorGoalMixin",
+    "admin.LightningBoltMixin",
+    "admin.WitherSkullBlockMixin",
+    "greylist.ItemEntityMixin",
+    "greylist.ExperienceOrbMixin",
+    "ItemMixin",
+    "EntityAccessor",
+    "trifles.ItemStackMixin",
+    "trifles.ItemCraftedMixin",
+    "trifles.DoorBlockMixin",
+    "trifles.ButtonBlockMixin",
+    "trifles.AnvilMenuMixin",
+    "enchantments.FishingHookMixin",
+    "enchantments.InventoryMixin",
+    "enchantments.ServerPlayerMixin",
+    "enchantments.GrindstoneMenuMixin",
+    "regions.FireBlockMixin",
+    "regions.MobMixin",
+    "regions.FarmlandBlockMixin",
+    "portals.EndGatewayBlockMixin",
+    "portals.LeverBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

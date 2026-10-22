@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.rane.angel",
+    "fallback": "Angel"
+  },
+  "supported_items": "minecraft:elytra",
+  "weight": 10,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 3,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "chest"
+  ],
+  "exclusive_set": "rane:wings"
+}
