@@ -6,6 +6,7 @@
     "IngredientMixin",
     "RecipeManagerMixin",
     "RecipeMapAccessor",
+    "ServerConfigurationPacketListenerImplMixin",
     "admin.ServerExplosionMixin",
     "admin.BlockAttachedEntityMixin",
     "admin.ItemFrameMixin",
