@@ -42,10 +42,14 @@ object Heads {
     val library: List<Head> by lazy {
         val stream = Heads::class.java.getResourceAsStream("/rane/head_library.json.gz") ?: return@lazy emptyList()
         GZIPInputStream(stream).reader().use { r ->
-            JsonParser.parseReader(r).asJsonArray.map { e ->
+            fun com.google.gson.JsonObject.str(k: String) = get(k)?.takeUnless { it.isJsonNull }?.asString
+            JsonParser.parseReader(r).asJsonArray.mapNotNull { e ->
                 val o = e.asJsonObject
-                Head(o["id"].asString, o["name"].asString, o["category"].asString,
-                    o["tags"].asJsonArray.map { it.asString.trim('"') }, o["hash"].asString)
+                val hash = o.str("hash") ?: return@mapNotNull null
+                val name = o.str("name") ?: return@mapNotNull null
+                Head(o.str("id") ?: hash, name, o.str("category") ?: "misc",
+                    o.get("tags")?.takeIf { it.isJsonArray }?.asJsonArray?.mapNotNull { t -> t.takeUnless { it.isJsonNull }?.asString?.trim('"') } ?: emptyList(),
+                    hash)
             }
         }
     }
@@ -83,6 +87,15 @@ object Heads {
     }
 
     fun open(player: ServerPlayer, category: String, search: String, page: Int = 0) {
+        try {
+            openUnsafe(player, category, search, page)
+        } catch (e: Exception) {
+            Trifles.log.error("Could not open the heads menu", e)
+            player.sendSystemMessage(me.shro.rane.core.txt("§cThe heads menu failed to open; see the server log."))
+        }
+    }
+
+    private fun openUnsafe(player: ServerPlayer, category: String, search: String, page: Int) {
         val heads = filtered(category, search)
         val pages = maxOf(1, (heads.size + 44) / 45)
         val p = page.coerceIn(0, pages - 1)
