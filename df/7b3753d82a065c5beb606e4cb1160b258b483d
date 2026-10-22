@@ -1,0 +1,21 @@
+gradle.properties
+  s_737e7a6d18fd24::t_cabc50b34758a2 15
+src/main/kotlin/me/shro/rane/trifles/Heads.kt
+  s_737e7a6d18fd24::t_ae8ec542db5394 45-46,48-52,90-98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "df7b3753d82a065c5beb606e4cb1160b258b483d",
+  "prompts": {},
+  "sessions": {
+    "s_737e7a6d18fd24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4500ebc9-0193-44d1-b055-fb00c501e4eb",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Shroom <68300730+ezShroom@users.noreply.github.com>"
+    }
+  }
+}
