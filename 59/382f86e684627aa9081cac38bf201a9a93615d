@@ -1,0 +1,25 @@
+src/main/kotlin/me/shro/rane/greylist/DiscordOAuth.kt
+  s_737e7a6d18fd24::t_a1ef53a971036e 1-195
+README.md
+  s_737e7a6d18fd24::t_638e02c197c692 17,35-40,42-46,50-56,61-63
+gradle.properties
+  s_737e7a6d18fd24::t_d613d265fd0e0c 15
+src/main/kotlin/me/shro/rane/greylist/Greylist.kt
+  s_737e7a6d18fd24::t_c7f26861d7ea37 37,39,41,45-63,65,77,93-95,97,102,104-105,107,178,188-197,200-205,209-210,232,235-240,245-261,263-267,269,272-276,279-286,301,305,308
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "59382f86e684627aa9081cac38bf201a9a93615d",
+  "prompts": {},
+  "sessions": {
+    "s_737e7a6d18fd24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4500ebc9-0193-44d1-b055-fb00c501e4eb",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Shroom <68300730+ezShroom@users.noreply.github.com>"
+    }
+  }
+}
