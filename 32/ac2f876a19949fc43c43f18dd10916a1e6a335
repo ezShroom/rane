@@ -1,0 +1,395 @@
+.gitignore
+  s_737e7a6d18fd24::t_6f80c3737b846b 1-7
+LICENSE
+  s_737e7a6d18fd24::t_818c693fa6b2e8 1-22
+README.md
+  s_737e7a6d18fd24::t_8d1119a51ee25a 1-59
+build.gradle.kts
+  s_737e7a6d18fd24::t_26a9d21e1608a7 1-77
+gradle.properties
+  s_737e7a6d18fd24::t_e3d57a632cd534 1-16
+gradle/wrapper/gradle-wrapper.properties
+  s_737e7a6d18fd24::t_36485cc9d8ccc0 1-9
+gradlew
+  s_737e7a6d18fd24::t_35f55a579694ae 1-248
+gradlew.bat
+  s_737e7a6d18fd24::t_71167efb8b57ba 1-82
+resourcepack/assets/rane/items/ancient_tome.json
+  s_737e7a6d18fd24::t_e3a301d178420d 1-6
+resourcepack/assets/rane/items/ancient_tome_of_knowledge.json
+  s_737e7a6d18fd24::t_58860abe9647d1 1-6
+resourcepack/assets/rane/items/ancient_tome_of_the_gods.json
+  s_737e7a6d18fd24::t_c2c8d127a9bf96 1-6
+resourcepack/assets/rane/items/backpack.json
+  s_737e7a6d18fd24::t_0f39b99054cb95 1-6
+resourcepack/assets/rane/items/death_scroll.json
+  s_737e7a6d18fd24::t_3a4c7f66407b43 1-6
+resourcepack/assets/rane/items/diamond_sickle.json
+  s_737e7a6d18fd24::t_718c624dd9b1e1 1-6
+resourcepack/assets/rane/items/empty_xp_bottle.json
+  s_737e7a6d18fd24::t_9554a27de8682b 1-6
+resourcepack/assets/rane/items/enchanted_ancient_tome.json
+  s_737e7a6d18fd24::t_ae9cbdc43b99f1 1-6
+resourcepack/assets/rane/items/enchanted_ancient_tome_of_knowledge.json
+  s_737e7a6d18fd24::t_4cec9b20ce08fa 1-6
+resourcepack/assets/rane/items/enchanted_ancient_tome_of_the_gods.json
+  s_737e7a6d18fd24::t_4e698d27eda297 1-6
+resourcepack/assets/rane/items/file.json
+  s_737e7a6d18fd24::t_3fc931dab19749 1-6
+resourcepack/assets/rane/items/golden_sickle.json
+  s_737e7a6d18fd24::t_c99088230cdc7d 1-6
+resourcepack/assets/rane/items/home_scroll.json
+  s_737e7a6d18fd24::t_27fb8572001579 1-6
+resourcepack/assets/rane/items/iron_sickle.json
+  s_737e7a6d18fd24::t_0b7d94e0f643bf 1-6
+resourcepack/assets/rane/items/large_xp_bottle.json
+  s_737e7a6d18fd24::t_880ddcab20fb32 1-6
+resourcepack/assets/rane/items/lodestone_scroll.json
+  s_737e7a6d18fd24::t_4b0fe23a7a992e 1-6
+resourcepack/assets/rane/items/medium_xp_bottle.json
+  s_737e7a6d18fd24::t_563eef70c47e44 1-6
+resourcepack/assets/rane/items/netherite_sickle.json
+  s_737e7a6d18fd24::t_75d73e6e969a51 1-6
+resourcepack/assets/rane/items/north_compass.json
+  s_737e7a6d18fd24::t_95bb82633a42a8 1-245
+resourcepack/assets/rane/items/papyrus_scroll.json
+  s_737e7a6d18fd24::t_66122372a7d6dc 1-6
+resourcepack/assets/rane/items/pouch.json
+  s_737e7a6d18fd24::t_10cc33ba065c86 1-6
+resourcepack/assets/rane/items/reinforced_elytra.json
+  s_737e7a6d18fd24::t_c26a412d81d3ad 1-14
+resourcepack/assets/rane/items/slime_bucket.json
+  s_737e7a6d18fd24::t_9959b88622a6ed 1-6
+resourcepack/assets/rane/items/slime_bucket_excited.json
+  s_737e7a6d18fd24::t_5cc8662b93019f 1-6
+resourcepack/assets/rane/items/small_xp_bottle.json
+  s_737e7a6d18fd24::t_4d76468c11de96 1-6
+resourcepack/assets/rane/items/spawn_scroll.json
+  s_737e7a6d18fd24::t_73b658a304422c 1-6
+resourcepack/assets/rane/items/stone_sickle.json
+  s_737e7a6d18fd24::t_814e49d6df8d16 1-6
+resourcepack/assets/rane/items/trowel.json
+  s_737e7a6d18fd24::t_1339f00e1bc182 1-6
+resourcepack/assets/rane/items/unstable_scroll.json
+  s_737e7a6d18fd24::t_2b65cdeefa7fa8 1-6
+resourcepack/assets/rane/items/wooden_sickle.json
+  s_737e7a6d18fd24::t_5fa948858ca4b9 1-6
+resourcepack/assets/rane/models/item/ancient_tome.json
+  s_737e7a6d18fd24::t_0f24505bee8d07 1-6
+resourcepack/assets/rane/models/item/ancient_tome_of_knowledge.json
+  s_737e7a6d18fd24::t_0925b37dd47560 1-6
+resourcepack/assets/rane/models/item/ancient_tome_of_the_gods.json
+  s_737e7a6d18fd24::t_bd007ac14cf31f 1-6
+resourcepack/assets/rane/models/item/backpack.json
+  s_737e7a6d18fd24::t_25bafbdc4d1385 1-6
+resourcepack/assets/rane/models/item/death_scroll.json
+  s_737e7a6d18fd24::t_850175601a185f 1-6
+resourcepack/assets/rane/models/item/diamond_sickle.json
+  s_737e7a6d18fd24::t_3d53ba68724a28 1-6
+resourcepack/assets/rane/models/item/empty_xp_bottle.json
+  s_737e7a6d18fd24::t_09e641146dc2b6 1-6
+resourcepack/assets/rane/models/item/enchanted_ancient_tome.json
+  s_737e7a6d18fd24::t_182883a592d0e4 1-6
+resourcepack/assets/rane/models/item/enchanted_ancient_tome_of_knowledge.json
+  s_737e7a6d18fd24::t_de0901e03ba397 1-6
+resourcepack/assets/rane/models/item/enchanted_ancient_tome_of_the_gods.json
+  s_737e7a6d18fd24::t_605bcb3ab3d9c6 1-6
+resourcepack/assets/rane/models/item/file.json
+  s_737e7a6d18fd24::t_d2f167dafe1421 1-6
+resourcepack/assets/rane/models/item/golden_sickle.json
+  s_737e7a6d18fd24::t_5f6d2a8a5f1046 1-6
+resourcepack/assets/rane/models/item/home_scroll.json
+  s_737e7a6d18fd24::t_2c75e91be15f52 1-6
+resourcepack/assets/rane/models/item/iron_sickle.json
+  s_737e7a6d18fd24::t_44cd99342b8bf0 1-6
+resourcepack/assets/rane/models/item/large_xp_bottle.json
+  s_737e7a6d18fd24::t_33e5aaaecef08b 1-6
+resourcepack/assets/rane/models/item/lodestone_scroll.json
+  s_737e7a6d18fd24::t_a8d81eca57e108 1-6
+resourcepack/assets/rane/models/item/medium_xp_bottle.json
+  s_737e7a6d18fd24::t_1a0fb51ade8c76 1-6
+resourcepack/assets/rane/models/item/netherite_sickle.json
+  s_737e7a6d18fd24::t_58538e7f0e265b 1-6
+resourcepack/assets/rane/models/item/north_compass_00.json
+  s_737e7a6d18fd24::t_d37ac84ad7c344 1-6
+resourcepack/assets/rane/models/item/north_compass_01.json
+  s_737e7a6d18fd24::t_b9d7894c75aa0c 1-6
+resourcepack/assets/rane/models/item/north_compass_02.json
+  s_737e7a6d18fd24::t_051c9cd4b8b4dd 1-6
+resourcepack/assets/rane/models/item/north_compass_03.json
+  s_737e7a6d18fd24::t_7861475f813aa5 1-6
+resourcepack/assets/rane/models/item/north_compass_04.json
+  s_737e7a6d18fd24::t_8bcc4066cfa81b 1-6
+resourcepack/assets/rane/models/item/north_compass_05.json
+  s_737e7a6d18fd24::t_001bf2e59ff6a2 1-6
+resourcepack/assets/rane/models/item/north_compass_06.json
+  s_737e7a6d18fd24::t_ba38713113cf9f 1-6
+resourcepack/assets/rane/models/item/north_compass_07.json
+  s_737e7a6d18fd24::t_cb5f21e1a51047 1-6
+resourcepack/assets/rane/models/item/north_compass_08.json
+  s_737e7a6d18fd24::t_08c3b6fdb73344 1-6
+resourcepack/assets/rane/models/item/north_compass_09.json
+  s_737e7a6d18fd24::t_4bd56306f3ef3d 1-6
+resourcepack/assets/rane/models/item/north_compass_10.json
+  s_737e7a6d18fd24::t_c4c2d4a3ac93e7 1-6
+resourcepack/assets/rane/models/item/north_compass_11.json
+  s_737e7a6d18fd24::t_c191e1a018bcdb 1-6
+resourcepack/assets/rane/models/item/north_compass_12.json
+  s_737e7a6d18fd24::t_b02eafa7fa9b00 1-6
+resourcepack/assets/rane/models/item/north_compass_13.json
+  s_737e7a6d18fd24::t_e97ac11bc20597 1-6
+resourcepack/assets/rane/models/item/north_compass_14.json
+  s_737e7a6d18fd24::t_a2e9e266e4060a 1-6
+resourcepack/assets/rane/models/item/north_compass_15.json
+  s_737e7a6d18fd24::t_262a49beeab9cb 1-6
+resourcepack/assets/rane/models/item/north_compass_16.json
+  s_737e7a6d18fd24::t_9f69a1fc5fc146 1-6
+resourcepack/assets/rane/models/item/north_compass_17.json
+  s_737e7a6d18fd24::t_4474edad478fd3 1-6
+resourcepack/assets/rane/models/item/north_compass_18.json
+  s_737e7a6d18fd24::t_5578bb0612b30c 1-6
+resourcepack/assets/rane/models/item/north_compass_19.json
+  s_737e7a6d18fd24::t_87f8ffca68d040 1-6
+resourcepack/assets/rane/models/item/north_compass_20.json
+  s_737e7a6d18fd24::t_925895b9e59d11 1-6
+resourcepack/assets/rane/models/item/north_compass_21.json
+  s_737e7a6d18fd24::t_9665a317990072 1-6
+resourcepack/assets/rane/models/item/north_compass_22.json
+  s_737e7a6d18fd24::t_1ffc526ae8f677 1-6
+resourcepack/assets/rane/models/item/north_compass_23.json
+  s_737e7a6d18fd24::t_a816a34cd9475a 1-6
+resourcepack/assets/rane/models/item/north_compass_24.json
+  s_737e7a6d18fd24::t_1396153e2b8114 1-6
+resourcepack/assets/rane/models/item/north_compass_25.json
+  s_737e7a6d18fd24::t_ed61c4a4020706 1-6
+resourcepack/assets/rane/models/item/north_compass_26.json
+  s_737e7a6d18fd24::t_5a10843177e3a0 1-6
+resourcepack/assets/rane/models/item/north_compass_27.json
+  s_737e7a6d18fd24::t_9877e6278b19e4 1-6
+resourcepack/assets/rane/models/item/north_compass_28.json
+  s_737e7a6d18fd24::t_51e708dd0ce6ea 1-6
+resourcepack/assets/rane/models/item/north_compass_29.json
+  s_737e7a6d18fd24::t_b29bbd817e8e11 1-6
+resourcepack/assets/rane/models/item/north_compass_30.json
+  s_737e7a6d18fd24::t_dbee06c584bb4f 1-6
+resourcepack/assets/rane/models/item/north_compass_31.json
+  s_737e7a6d18fd24::t_848726ec6d495a 1-6
+resourcepack/assets/rane/models/item/papyrus_scroll.json
+  s_737e7a6d18fd24::t_4cbafc4f670e0f 1-6
+resourcepack/assets/rane/models/item/pouch.json
+  s_737e7a6d18fd24::t_b1c270a12c1b0b 1-6
+resourcepack/assets/rane/models/item/reinforced_elytra.broken.json
+  s_737e7a6d18fd24::t_0123787c9a9b7e 1-6
+resourcepack/assets/rane/models/item/reinforced_elytra.json
+  s_737e7a6d18fd24::t_9c5b8b8014f729 1-6
+resourcepack/assets/rane/models/item/slime_bucket.json
+  s_737e7a6d18fd24::t_5bfa7c149b8f78 1-7
+resourcepack/assets/rane/models/item/slime_bucket_excited.json
+  s_737e7a6d18fd24::t_dbdcab696b28e7 1-7
+resourcepack/assets/rane/models/item/small_xp_bottle.json
+  s_737e7a6d18fd24::t_35691b4f4d7d4d 1-6
+resourcepack/assets/rane/models/item/spawn_scroll.json
+  s_737e7a6d18fd24::t_c7d31f4d584111 1-6
+resourcepack/assets/rane/models/item/stone_sickle.json
+  s_737e7a6d18fd24::t_cb86934b0ca779 1-6
+resourcepack/assets/rane/models/item/trowel.json
+  s_737e7a6d18fd24::t_2aaf1d9f01c4f0 1-6
+resourcepack/assets/rane/models/item/unstable_scroll.json
+  s_737e7a6d18fd24::t_81a47b0feb87e7 1-6
+resourcepack/assets/rane/models/item/wooden_sickle.json
+  s_737e7a6d18fd24::t_f2115946fcc449 1-6
+resourcepack/assets/rane/textures/item/slime_bucket_excited_slime.png.mcmeta
+  s_737e7a6d18fd24::t_fdecd3e62bb6ff 1
+resourcepack/pack.mcmeta
+  s_737e7a6d18fd24::t_b117c9d0845933 1-7
+settings.gradle.kts
+  s_737e7a6d18fd24::t_213e47fb0c2978 1-9
+src/main/java/me/shro/rane/mixin/EntityAccessor.java
+  s_737e7a6d18fd24::t_0e164fec951d8a 1-14
+src/main/java/me/shro/rane/mixin/IngredientMixin.java
+  s_737e7a6d18fd24::t_3f97c4b4c7a645 1-21
+src/main/java/me/shro/rane/mixin/ItemMixin.java
+  s_737e7a6d18fd24::t_cd52d5543c3908 1-21
+src/main/java/me/shro/rane/mixin/RecipeManagerMixin.java
+  s_737e7a6d18fd24::t_a935968fc2f2ec 1-57
+src/main/java/me/shro/rane/mixin/RecipeMapAccessor.java
+  s_737e7a6d18fd24::t_6ca566cc0c6b23 1-19
+src/main/java/me/shro/rane/mixin/admin/BlockAttachedEntityMixin.java
+  s_737e7a6d18fd24::t_91b3d1ed39465f 1-19
+src/main/java/me/shro/rane/mixin/admin/BreakDoorGoalMixin.java
+  s_737e7a6d18fd24::t_21facc892165a3 1-16
+src/main/java/me/shro/rane/mixin/admin/EndermanTakeBlockGoalMixin.java
+  s_737e7a6d18fd24::t_7a424a4c7eb7d0 1-15
+src/main/java/me/shro/rane/mixin/admin/ItemFrameMixin.java
+  s_737e7a6d18fd24::t_c039534762dc27 1-19
+src/main/java/me/shro/rane/mixin/admin/LightningBoltMixin.java
+  s_737e7a6d18fd24::t_2971d7edaf0040 1-16
+src/main/java/me/shro/rane/mixin/admin/ServerExplosionMixin.java
+  s_737e7a6d18fd24::t_70a54898567ece 1-21
+src/main/java/me/shro/rane/mixin/admin/WitherSkullBlockMixin.java
+  s_737e7a6d18fd24::t_c78348b4ad6e88 1-29
+src/main/java/me/shro/rane/mixin/enchantments/FishingHookMixin.java
+  s_737e7a6d18fd24::t_3e370f432b864c 1-18
+src/main/java/me/shro/rane/mixin/enchantments/GrindstoneMenuMixin.java
+  s_737e7a6d18fd24::t_258b83d984b9b3 1-29
+src/main/java/me/shro/rane/mixin/enchantments/InventoryMixin.java
+  s_737e7a6d18fd24::t_6f072428c841c8 1-16
+src/main/java/me/shro/rane/mixin/enchantments/ServerPlayerMixin.java
+  s_737e7a6d18fd24::t_becc51a84de692 1-16
+src/main/java/me/shro/rane/mixin/greylist/ExperienceOrbMixin.java
+  s_737e7a6d18fd24::t_03320b08b30bb2 1-18
+src/main/java/me/shro/rane/mixin/greylist/ItemEntityMixin.java
+  s_737e7a6d18fd24::t_77571780d209e6 1-18
+src/main/java/me/shro/rane/mixin/portals/EndGatewayBlockMixin.java
+  s_737e7a6d18fd24::t_3e92fdb3713b5f 1-22
+src/main/java/me/shro/rane/mixin/portals/LeverBlockMixin.java
+  s_737e7a6d18fd24::t_4215a095288370 1-20
+src/main/java/me/shro/rane/mixin/regions/FarmlandBlockMixin.java
+  s_737e7a6d18fd24::t_fc302cfdc57a39 1-24
+src/main/java/me/shro/rane/mixin/regions/FireBlockMixin.java
+  s_737e7a6d18fd24::t_441c70780b18b5 1-25
+src/main/java/me/shro/rane/mixin/regions/MobMixin.java
+  s_737e7a6d18fd24::t_84fe2f17268e99 1-24
+src/main/java/me/shro/rane/mixin/trifles/AnvilMenuMixin.java
+  s_737e7a6d18fd24::t_94d2c8c7b43805 1-30
+src/main/java/me/shro/rane/mixin/trifles/ButtonBlockMixin.java
+  s_737e7a6d18fd24::t_bd9974b626ee96 1-21
+src/main/java/me/shro/rane/mixin/trifles/DoorBlockMixin.java
+  s_737e7a6d18fd24::t_98266c70c22e71 1-31
+src/main/java/me/shro/rane/mixin/trifles/ItemCraftedMixin.java
+  s_737e7a6d18fd24::t_80ee567ee30394 1-22
+src/main/java/me/shro/rane/mixin/trifles/ItemStackMixin.java
+  s_737e7a6d18fd24::t_df56f5978df45f 1-18
+src/main/kotlin/me/shro/rane/Rane.kt
+  s_737e7a6d18fd24::t_af41d377e18ce4 1-73
+src/main/kotlin/me/shro/rane/admin/Admin.kt
+  s_737e7a6d18fd24::t_2885820c0ae7a3 1-96
+src/main/kotlin/me/shro/rane/admin/Hazards.kt
+  s_737e7a6d18fd24::t_23edbd0d03502b 1-56
+src/main/kotlin/me/shro/rane/admin/WorldRebuild.kt
+  s_737e7a6d18fd24::t_6ff213b764331a 1-93
+src/main/kotlin/me/shro/rane/bedtime/Bedtime.kt
+  s_737e7a6d18fd24::t_3db0a62897efe5 1-95
+src/main/kotlin/me/shro/rane/compat/BlueMapCompat.kt
+  s_737e7a6d18fd24::t_32d4f63a5d883b 1-52
+src/main/kotlin/me/shro/rane/core/Config.kt
+  s_737e7a6d18fd24::t_6e8ece2a392f38 1-56
+src/main/kotlin/me/shro/rane/core/CoreModule.kt
+  s_737e7a6d18fd24::t_6b1a596ee7a057 1-58
+src/main/kotlin/me/shro/rane/core/Menus.kt
+  s_737e7a6d18fd24::t_f99cdeec133858 1-81
+src/main/kotlin/me/shro/rane/core/Module.kt
+  s_737e7a6d18fd24::t_281708179be1a8 1-23
+src/main/kotlin/me/shro/rane/core/Options.kt
+  s_737e7a6d18fd24::t_eb8c38cc75e022 1-43
+src/main/kotlin/me/shro/rane/core/Perms.kt
+  s_737e7a6d18fd24::t_97ad608261f7da 1-25
+src/main/kotlin/me/shro/rane/core/ResourcePacks.kt
+  s_737e7a6d18fd24::t_6c5cb5708f49fb 1-40
+src/main/kotlin/me/shro/rane/core/Scheduler.kt
+  s_737e7a6d18fd24::t_fb13fc2c42d1b9 1-53
+src/main/kotlin/me/shro/rane/core/Store.kt
+  s_737e7a6d18fd24::t_73737ffbebbe20 1-73
+src/main/kotlin/me/shro/rane/core/Text.kt
+  s_737e7a6d18fd24::t_a1c2d8984cd195 1-25
+src/main/kotlin/me/shro/rane/core/Util.kt
+  s_737e7a6d18fd24::t_38490c4e4cd729 1-26
+src/main/kotlin/me/shro/rane/enchantments/EnchantmentEffects.kt
+  s_737e7a6d18fd24::t_16a9574d210bc0 1-293
+src/main/kotlin/me/shro/rane/enchantments/Enchantments.kt
+  s_737e7a6d18fd24::t_211abde2625009 1-214
+src/main/kotlin/me/shro/rane/greylist/DiscordGateway.kt
+  s_737e7a6d18fd24::t_b3388099968100 1-228
+src/main/kotlin/me/shro/rane/greylist/Greylist.kt
+  s_737e7a6d18fd24::t_cd25f8809d5c60 1-335
+src/main/kotlin/me/shro/rane/item/CustomItems.kt
+  s_737e7a6d18fd24::t_4ccfcfc8b36897 1-100
+src/main/kotlin/me/shro/rane/item/ItemHooks.kt
+  s_737e7a6d18fd24::t_a8c1f1b89e966b 1-91
+src/main/kotlin/me/shro/rane/item/Recipes.kt
+  s_737e7a6d18fd24::t_66da8226d12a5f 1-138
+src/main/kotlin/me/shro/rane/portals/PortalLogic.kt
+  s_737e7a6d18fd24::t_783f71adf4b803 1-357
+src/main/kotlin/me/shro/rane/portals/PortalMenus.kt
+  s_737e7a6d18fd24::t_fc09f530cbdc53 1-97
+src/main/kotlin/me/shro/rane/portals/Portals.kt
+  s_737e7a6d18fd24::t_a2b685a78f3cdc 1-103
+src/main/kotlin/me/shro/rane/regions/Enforcement.kt
+  s_737e7a6d18fd24::t_3c026b55678e2d 1-118
+src/main/kotlin/me/shro/rane/regions/Protection.kt
+  s_737e7a6d18fd24::t_2d7f4484805108 1-14
+src/main/kotlin/me/shro/rane/regions/RegionMenus.kt
+  s_737e7a6d18fd24::t_9ee2874eacc92b 1-225
+src/main/kotlin/me/shro/rane/regions/Regions.kt
+  s_737e7a6d18fd24::t_784dc4411f19bd 1-171
+src/main/kotlin/me/shro/rane/regions/Selection.kt
+  s_737e7a6d18fd24::t_399d99e184ae94 1-111
+src/main/kotlin/me/shro/rane/trifles/FileTool.kt
+  s_737e7a6d18fd24::t_452fb3d4204ff4 1-125
+src/main/kotlin/me/shro/rane/trifles/Heads.kt
+  s_737e7a6d18fd24::t_8d8331ae361e37 1-157
+src/main/kotlin/me/shro/rane/trifles/ItemFinder.kt
+  s_737e7a6d18fd24::t_953cc441e6129d 1-118
+src/main/kotlin/me/shro/rane/trifles/Misc.kt
+  s_737e7a6d18fd24::t_77461e6029cba7 1-224
+src/main/kotlin/me/shro/rane/trifles/Scrolls.kt
+  s_737e7a6d18fd24::t_5c098a8390f1b0 1-205
+src/main/kotlin/me/shro/rane/trifles/Sickles.kt
+  s_737e7a6d18fd24::t_279b73ea508ceb 1-117
+src/main/kotlin/me/shro/rane/trifles/Storage.kt
+  s_737e7a6d18fd24::t_a045fe26e5e660 1-135
+src/main/kotlin/me/shro/rane/trifles/Trifles.kt
+  s_737e7a6d18fd24::t_89deb14fa73482 1-129
+src/main/kotlin/me/shro/rane/trifles/TriflesItems.kt
+  s_737e7a6d18fd24::t_f9745df9a6bbb1 1-173
+src/main/kotlin/me/shro/rane/trifles/Trowel.kt
+  s_737e7a6d18fd24::t_451377e7f85cf8 1-90
+src/main/kotlin/me/shro/rane/trifles/XpBottles.kt
+  s_737e7a6d18fd24::t_e2aecb192e8659 1-62
+src/main/resources/data/minecraft/chat_type/chat.json
+  s_737e7a6d18fd24::t_539d7d6d286c95 1-11
+src/main/resources/data/rane/enchantment/angel.json
+  s_737e7a6d18fd24::t_88ddeeb0960602 1-22
+src/main/resources/data/rane/enchantment/grappling_hook.json
+  s_737e7a6d18fd24::t_197cda6b23ec9a 1-21
+src/main/resources/data/rane/enchantment/hell_bent.json
+  s_737e7a6d18fd24::t_dffbf73efb928c 1-39
+src/main/resources/data/rane/enchantment/leafchopper.json
+  s_737e7a6d18fd24::t_369bfbdff063d5 1-21
+src/main/resources/data/rane/enchantment/lightning.json
+  s_737e7a6d18fd24::t_e7d7b6be6d8084 1-27
+src/main/resources/data/rane/enchantment/rake.json
+  s_737e7a6d18fd24::t_a17b674789690b 1-21
+src/main/resources/data/rane/enchantment/seeding.json
+  s_737e7a6d18fd24::t_21e7f6822ba115 1-21
+src/main/resources/data/rane/enchantment/soulbound.json
+  s_737e7a6d18fd24::t_1f75072dbdff17 1-22
+src/main/resources/data/rane/enchantment/take_off.json
+  s_737e7a6d18fd24::t_e6e1a4fea5bd03 1-21
+src/main/resources/data/rane/enchantment/unbreakable.json
+  s_737e7a6d18fd24::t_2726fa4b1da40d 1-35
+src/main/resources/data/rane/enchantment/wings.json
+  s_737e7a6d18fd24::t_2f246eccd23174 1-22
+src/main/resources/data/rane/tags/damage_type/fly_into_wall.json
+  s_737e7a6d18fd24::t_cf2e992051e65f 1-5
+src/main/resources/fabric.mod.json
+  s_737e7a6d18fd24::t_7da9a9d798ae2b 1-24
+src/main/resources/rane.mixins.json
+  s_737e7a6d18fd24::t_7465772ce54045 1-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "32ac2f876a19949fc43c43f18dd10916a1e6a335",
+  "prompts": {},
+  "sessions": {
+    "s_737e7a6d18fd24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4500ebc9-0193-44d1-b055-fb00c501e4eb",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Shroom <68300730+ezShroom@users.noreply.github.com>"
+    }
+  }
+}
